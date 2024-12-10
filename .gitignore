@@ -21,3 +21,4 @@ airflow.cfg
 
 # macOS
 .DS_Store
+.env

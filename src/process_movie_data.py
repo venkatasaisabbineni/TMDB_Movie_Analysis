@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import *
+from pyspark.sql.functions import explode,col,avg
 
 def process_data():
     spark = SparkSession.builder.appName("MovieDataProcessing").getOrCreate()
